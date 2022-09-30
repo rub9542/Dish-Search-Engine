@@ -17,7 +17,7 @@
 .search-bar{
   width:50%;
   border:none;
-  font-size: 3em;
+  font-size: 2em;
   height: 83px;
   padding: 0px 10px;
   border-top-left-radius: 20px;
@@ -30,7 +30,7 @@
   background: lightcoral;
   border: none;
   padding: 10px 20px;
-  font-size: 3em;
+  font-size: 2em;
   height: 83px;
   color: white;
   border-top-right-radius: 20px;
@@ -40,4 +40,9 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.list-item{
+  font-family: system-ui;
+    font-size: 19px;
+    font-weight: 100;
 }
