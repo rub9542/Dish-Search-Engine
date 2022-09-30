@@ -219,7 +219,7 @@ You would need to install an ESLint plugin for your editor first.
 
 >If you are using the Atom `linter-eslint` plugin, make sure that **Use global ESLint installation** option is checked:
 
-><img src="http://i.imgur.com/yVNNHJM.png" width="300">
+><img src="http://i.imgur.com/yVNNHJM.png" width="300" alt='text'>
 
 
 >**For Visual Studio Code users**
@@ -549,7 +549,7 @@ render() {
   // Note: this is an escape hatch and should be used sparingly!
   // Normally we recommend using `import` for getting asset URLs
   // as described in “Adding Images and Fonts” above this section.
-  return <img src={process.env.PUBLIC_URL + '/img/logo.png'} />;
+  return <img src={process.env.PUBLIC_URL + '/img/logo.png'} alt='logo'/>;
 }
 ```
 

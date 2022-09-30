@@ -18,7 +18,7 @@ const App = () =>{
     const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`)
     const data =await response.json();
     setRecipes(data.hits);
-    console.log(data.hits);
+    // console.log(data.hits);
   }
   const updateSearch = e=>{
     setSearch(e.target.value);
@@ -38,7 +38,7 @@ const App = () =>{
    
   return(
     <div className='App'>
-      <diV className='logo-div'><img src={zevi} att='text'/></diV>
+      <div className='logo-div'><img src={zevi} alt='text'/></div>
       <form onSubmit={getSearch} className='search-form '>
         <input className='search-bar' placeholder='Type Your Dish Here' type='text' value={search} onChange={updateSearch}/>
         <button 

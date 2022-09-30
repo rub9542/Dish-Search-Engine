@@ -6,12 +6,12 @@ const Recipe =({title,calories,image,ingredients}) =>{
         <div className='recipe'>
             <h1 >{title}</h1>
             <ul>
-                {ingredients.map(ingredient =>(
-                    <li className='list-item'>{ingredient.text}</li>
+                {ingredients.map((ingredient,index) =>(
+                    <li key={index}className='list-item'>{ingredient.text}</li>
                 ))}
             </ul>
             <p>{calories}</p>
-            <img className='image' src={image} alt=''/>
+            <img className='image' src={image} alt='text'/>
             
         </div> 
     )
