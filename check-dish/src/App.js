@@ -38,7 +38,7 @@ const App = () =>{
    
   return(
     <div className='App'>
-      <div className='logo-div'><img src={zevi} alt='text'/></div>
+      {/* <div className='logo-div'><img src={zevi} alt='text'/></div> */}
       <form onSubmit={getSearch} className='search-form '>
         <input className='search-bar' placeholder='Type Your Dish Here' type='text' value={search} onChange={updateSearch}/>
         <button 

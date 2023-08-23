@@ -1,32 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@100&display=swap");
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  padding: 2%;
+  font-family: "Josefin Sans, Myriad Pro Regular, Ahganriya, Magica, distant, story";
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
 }
-.logo-div{
+button {
+  font-family: story;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.logo-div {
   display: flex;
   justify-content: flex-end;
   padding: 40px 40px 0 0;
 }
-.search-form{
+.search-form {
   min-height: 83px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.search-bar{
-  width:50%;
-  border:none;
+.search-bar {
+  width: 50%;
+  border: none;
   font-size: 2em;
   height: 83px;
   padding: 0px 10px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-.search-bar:focus{
+.search-bar:focus {
   outline: none;
 }
-.search-button{
+.search-button {
   background: lightcoral;
   border: none;
   padding: 10px 20px;
@@ -34,15 +51,45 @@
   height: 83px;
   color: white;
   border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.recipes{
+.recipes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.list-item{
+.list-item {
   font-family: system-ui;
-    font-size: 19px;
-    font-weight: 100;
+  font-size: 19px;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Magica";
+  src: url("fonts/Magica.ttf") format("truetype");
+  /* Add additional font properties if needed */
+}
+
+@font-face {
+  font-family: "Ahganriya";
+  src: url("fonts/Ahganirya.ttf") format("truetype");
+  /* Add additional font properties if needed */
+}
+
+@font-face {
+  font-family: "Myriad Pro Regular";
+  src: url("fonts/Myriad\ Pro\ Regular.ttf") format("truetype");
+  /* Add additional font properties if needed */
+}
+
+@font-face {
+  font-family: "story";
+  src: url("fonts/story.ttf") format("truetype");
+  /* Add additional font properties if needed */
+}
+
+@font-face {
+  font-family: "distant";
+  src: url("fonts/distant.otf") format("opentype");
+  /* Add additional font properties if needed */
 }
